@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'neprose/gem5-pim:1.2.5.1'
+          default: 'pihole/pihole:nightly'
 
 # env:
 #   REGISTRY: ghcr.io
